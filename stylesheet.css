@@ -16,8 +16,10 @@ form{
             transition: 0.5s;
             background-size: 200% auto;
             border-radius: 15px;        
-            display: flex;
-            display: center;
+            position: relative;
+            margin: 0;
+            position: absolute;
+            top: 50%;
           }
 
           .btn-grad:hover {
