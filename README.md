@@ -7,7 +7,7 @@ git clone
 
 
 tralala
-=======
+
 test
 
 
@@ -21,4 +21,3 @@ test
 >>>>>>> c569cb1185b8269ceb7ee1e132d1e2b8c00e47a4
 
 
-kukuč
