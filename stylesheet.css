@@ -1,8 +1,13 @@
 #success_message{ display: none;}
-body{
-    background-color: linear-gradient(to right #220ed7de 35%, black 30%, #220ed7de 35%);
+
+legend center h2 b{
+    color: white;
 }
 
+form{
+    background-image: url("pozadíRegistr.png");
+    color:white;
+}
          .btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
          .btn-grad {
             margin: 10px;
@@ -10,16 +15,14 @@ body{
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
-            background-size: 200% auto;
-            color: white;            
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
+            background-size: 200% auto;        
+           
             display: block;
           }
 
           .btn-grad:hover {
             background-position: right center; /* change the direction of the change here */
-            color: #fff;
+            
             text-decoration: none;
           }
          
