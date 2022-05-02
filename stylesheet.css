@@ -10,14 +10,14 @@ form{
 }
          .btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
          .btn-grad {
-            margin: 10px;
             padding: 15px 45px;
             text-align: center;
             text-transform: uppercase;
             transition: 0.5s;
-            background-size: 200% auto;        
-           
-            display: block;
+            background-size: 200% auto;
+            border-radius: 15px;        
+            display: flex;
+            display: center;
           }
 
           .btn-grad:hover {
