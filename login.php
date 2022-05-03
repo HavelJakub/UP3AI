@@ -55,7 +55,7 @@
         <div class="form-group">
           <label class="col-md-4 control-label"></label>
           <div class="col-md-4"><br>
-            <button type="submit" class="btn-grad" >SUBMIT <span class="glyphicon glyphicon-send"></span></button>
+            <button type="submit" class="btn-grad" >Přihlásit se <span class="glyphicon glyphicon-send"></span></button>
           </div>
         </div>
         </fieldset>
@@ -81,5 +81,5 @@
         </table>
 
     <script src="register.js"></script>
-</body>
+</script></body>
 </html>
