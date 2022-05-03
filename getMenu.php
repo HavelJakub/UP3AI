@@ -1,7 +1,5 @@
 <?php
 
-require "db/getMenu.php";
-
 function getMenu($prefix, $startIndex, $stopIndex)
 
 $conn = $GLOBALS["conn"];
