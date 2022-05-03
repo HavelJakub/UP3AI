@@ -14,20 +14,29 @@
 </head>
 
 <body>
-    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <form class="well form-horizontal" action="registerUser.php" method="post"  id="contact_form">
         <fieldset>
         
         <!-- Form Name -->
         <legend><center><h2><b>Registration Form</b></h2></center></legend><br>
         
         <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label">Přezdívka</label>  
+          <div class="col-md-4 inputGroupContainer">
+          <div class="input-group">
+          <span class="input-group-addon"><i class=""></i></span>
+          <input  name="username" placeholder="Přezdívka" class="form-control"  type="text" required>
+            </div>
+          </div>
+        </div>
         
         <div class="form-group">
           <label class="col-md-4 control-label">Jméno</label>  
           <div class="col-md-4 inputGroupContainer">
           <div class="input-group">
           <span class="input-group-addon"><i class=""></i></span>
-          <input  name="first_name" placeholder="Jméno" class="form-control"  type="text">
+          <input  name="first_name" placeholder="Jméno" class="form-control"  type="text" required>
             </div>
           </div>
         </div>
@@ -39,7 +48,7 @@
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
           <span class="input-group-addon"><i class=""></i></span>
-          <input name="last_name" placeholder="Přijmení" class="form-control"  type="text">
+          <input name="last_name" placeholder="Přijmení" class="form-control"  type="text" required>
             </div>
           </div>
         </div>
@@ -50,7 +59,7 @@
               <div class="col-md-4 inputGroupContainer">
               <div class="input-group">
                   <span class="input-group-addon"><i class=""></i></span>
-            <input name="email" placeholder="E-Mail" class="form-control"  type="text">
+            <input name="email" placeholder="E-Mail" class="form-control"  type="email" required>
               </div>
             </div>
           </div>
@@ -62,7 +71,7 @@
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
           <span class="input-group-addon"><i class=""></i></span>
-          <input name="password1" placeholder="Heslo" class="form-control"  type="password">
+          <input name="password1" placeholder="Heslo" class="form-control"  type="password" required>
             </div>
           </div>
         </div>
@@ -74,41 +83,11 @@
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
           <span class="input-group-addon"><i class=""></i></span>
-          <input name="password2" placeholder="Potvrdit heslo" class="form-control"  type="password">
+          <input name="password2" placeholder="Potvrdit heslo" class="form-control"  type="password" required>
             </div>
           </div>
         </div>
         
-        <div class="form-group">
-            <label class="col-md-4 control-label">Město</label>  
-              <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                  <span class="input-group-addon"><i class=""></i></span>
-            <input name="city" placeholder="" class="form-control" type="text">
-              </div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="col-md-4 control-label">Ulice</label>  
-              <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                  <span class="input-group-addon"><i class=""></i></span>
-            <input name="street" placeholder="" class="form-control" type="text">
-              </div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label class="col-md-4 control-label">Číslo popisné</label>  
-              <div class="col-md-4 inputGroupContainer">
-              <div class="input-group">
-                  <span class="input-group-addon" ></span>
-            <input name="housenum placeholder="" class="form-control" type="text">
-            
-              </div>
-            </div>
-          </div>
         <!-- Text input-->
                
         <div class="form-group">
@@ -116,7 +95,7 @@
             <div class="col-md-4 inputGroupContainer">
             <div class="input-group">
                 <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-          <input name="contact_no" placeholder="(+420)" class="form-control" type="text">
+          <input name="telephone" placeholder="(+420)" class="form-control" type="text" required>
             </div>
           </div>
         </div>
@@ -128,7 +107,7 @@
         <div class="form-group">
           <label class="col-md-4 control-label"></label>
           <div class="col-md-4"><br>
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn-grad" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspZaregistrovat <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+            <button type="submit" class="btn-grad" >Zaregistrovat <span class="glyphicon glyphicon-send"></span></button>
           </div>
         </div>
         </fieldset>
