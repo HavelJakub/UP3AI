@@ -1,38 +1,45 @@
 #success_message{ display: none;}
 
-body form html{
-    
-    
+
+
+body{
+    background-image: url("pozadíRegistr.png");
 }
 
 legend center h2 b{
     color: white;
-    
 }
 
 form{
+    display: flex;
+    justify-content: center;
     background-image: url("pozadíRegistr.png");
     height: 100%;
     color: white;
     border-color: blue;
     
 }
-         .btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
-         .btn-grad {
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            border-radius: 15px;        
-            
-           
-            top: 50%;
+fieldset{
+    width: 60%;
+}
 
-            
-          }
+.btn-grad {background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%)}
+.btn-grad {
+    display: flex;
+    justify-content: center;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 150% auto;
+    border-radius: 15px;        
+    top: 50%; 
+    margin-left: 15%;
+    
+    
+}
 
-          .btn-grad:hover {
-            background-position: center; /* change the direction of the change here */
-            text-decoration: none;
+.btn-grad:hover {
+    background-position: center; /* change the direction of the change here */
+    text-decoration: none;
           } 
