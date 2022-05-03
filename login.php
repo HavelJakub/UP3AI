@@ -48,8 +48,8 @@
           <span class="input-group-addon"><i class=""></i></span>
           <input name="password1" placeholder="Password" class="form-control"  type="password">
             </div>
-          </div>
         </div>
+      </div>
 
         <!-- Button -->
         <div class="form-group">
