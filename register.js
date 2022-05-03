@@ -5,9 +5,6 @@ $(document).ready(function() {
             valid: 'glyphicon glyphicon-ok',
             invalid: 'glyphicon glyphicon-remove',
             validating: 'glyphicon glyphicon-refresh',
-            valid: 'bi bi-123-ok',
-            invalid: "bi bi-123-remove",
-            validating:"bi bi-123-refresh"
         },
         fields: {
             first_name: {
