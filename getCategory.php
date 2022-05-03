@@ -3,7 +3,7 @@ function getCategory($name)
 {
     $conn = $GLOBALS['conn'];
 
-    $mysql = "SELECT name,image_url From Category WHERE slug= ?";
+    $mysql = "SELECT name,image_url From Category;
     $stmt = $conn ->prepare($mysql);
     $stmt -> bind_param("s", $name);
     $stmt -> execute();
@@ -12,7 +12,7 @@ function getCategory($name)
     $stmt ->fetch();
     $stmt->close();
 
-    $categoryArray = array("name"=>$name, "image_url"=>$image_url );
+"    $categoryArray = array("name"=>$name, "image_url"=>$image_url );
 
     return $categoryArray;
 
@@ -34,3 +34,9 @@ function getAllCategories()
 
     return $categoryArray;
 }
+
+funcition
+
+
+
+?>
